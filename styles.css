@@ -173,7 +173,7 @@ p {
   .hero-subtitle {
     font-weight: 700;
     opacity: 1;
-    transition: opacity 1s ease-in-out;
+    /* transition: opacity 1s ease-in-out; */
     min-width: 300px;
     height: 3.5rem;
     line-height: 3.5rem;
