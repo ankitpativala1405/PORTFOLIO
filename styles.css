@@ -138,7 +138,6 @@ p {
     border-radius: 2px;
 }
 
-/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -171,12 +170,18 @@ p {
     position: relative;
 }
 
-.hero-subtitle {
+  .hero-subtitle {
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    min-width: 300px;
+    height: 3.5rem;
+    line-height: 3.5rem;
     font-size: 1.5rem;
     color: var(--accent-color);
     margin-bottom: 24px;
     font-weight: 600;
-}
+  }
 
 .hero-description {
     font-size: 1.125rem;
